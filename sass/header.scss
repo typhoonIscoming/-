@@ -1,0 +1,305 @@
+$width:1278px;
+*{margin: 0 auto;padding: 0;}
+.login{
+    width:100%;
+    height:165px;
+    border:1px solid red;
+    position: fixed;
+    .banner{
+        width: $width;
+    height: 115px;
+    background: url(../images/2016headerbg.jpg)no-repeat center center;
+    background-size: 168% 100%;
+    position: relative;
+        .logo{
+            display: block;
+        width: 268px;
+        height: 63px;
+        background: url(../images/2016CompanyLogo.png)no-repeat center center;
+        position: absolute;
+        top: 25px;
+        left: 60px;
+        }
+        
+        .input{
+            width: 300px;
+            height: 30px;
+            border: 3px solid #521b76;
+            position: absolute;
+            top: 40px;
+            left: 500px;
+            border-radius: 5px;
+            input{
+                width: 265px;
+                height: 30px;
+                outline: none;
+                float: left;
+                border: 0;
+                color: #521b76;
+                font-size: 14px;
+            }
+            input::-moz-placeholder{
+                color: #521b76;
+            }
+            input::-webkit-input-placeholder{
+                color: #521b76;
+            }
+            span{
+                display: inline-block;
+                width: 35px;
+                height: 30px;
+                background: url(../images/search.jpg)no-repeat center center; 
+                float: left;
+            }
+            
+        }
+        ul{
+            width: 325px;
+            height: 30px;
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            li{
+                float: left;
+                list-style: none;
+                background: url(../images/border.jpg)no-repeat right center;
+                padding:10px;
+                font-size: 12px;
+                a{
+                    text-decoration: none;
+                }
+                span{
+                    
+                    display:inline-block;
+                    width: 20px;
+                    height: 10px;
+                    background: url(../images/xiala.jpg)no-repeat center center;
+                }
+            }
+            .lastChild{
+                background-image: none;
+            }
+            
+        }
+        .userInfo{
+            position: absolute;
+            width: 223px;
+            height: 50px;
+            top: 50px;
+            right: 30px;
+        
+            dl{
+                float:left;
+                padding-right: 10px;
+                margin-top: 10px;
+                dt{
+                    width: 35px;
+                    height: 35px;
+                    
+                    float: left;
+                    margin-right: 10px;
+                    
+                }
+                .login_pic{
+                    background: url(../images/2016CommonSprite.png)no-repeat -276px -314px;
+                }
+                .cart_pic{
+                    background: url(../images/2016CommonSprite.png)no-repeat -311px -314px;
+                }
+                dd{
+                    float: left;
+                    line-height: 35px;
+                    font-size: 14px;
+                    a{
+                        color: #b56fb8;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        
+    }
+    .nav{
+        width: $width;
+        height: 50px;
+        border: 1px solid black;
+        background: linear-gradient(to right, #623381 30%,#c62f7a 100%);
+        li{
+            margin-top: 5px;
+            width: 111px;
+            height: 45px;
+            line-height: 45px;
+            list-style: none;
+            float: left;
+            color: white;
+            text-align: center;
+            a{
+                text-decoration: none;
+                color: white;
+                font-size: 12px;
+            }
+            
+        }
+        li:nth-child(1){
+            margin-left: 50px;
+            width: 225px;
+            text-align: center;
+            color: white;
+            span{
+                margin-top: 7px;
+                display: inline-block;
+                width: 15px;
+                height: 30px;
+                background: url(../images/2016CommonSprite.png)no-repeat -260px -175px;
+                float: left;
+                margin:8px 5px 0 30px
+            }
+            a{
+                float: left;
+                display: inline-block;
+                height: 45px;
+                font-size: 16px;
+            }
+            .tag_name{
+                display: none;
+            }
+        }
+        li:nth-child(9){
+            span{
+                display: inline-block;
+                width: 20px;
+                height: 22px;
+                background: url(../images/2016CommonSprite.png)no-repeat -276px -347px;
+            }
+        }
+        li:nth-child(10){
+            span{
+                display: inline-block;
+                width: 20px;
+                height: 22px;
+                background: url(../images/2016CommonSprite.png)no-repeat -295px -347px;
+            }
+        }
+        li:hover{
+            background: white;
+            border-radius: 5px;
+            height: 47px;
+            a{
+                color: black;
+                text-decoration: underline;
+            }
+            
+        }
+        li:nth-child(9):hover{
+                span{
+                    background: url(../images/2016CommonSprite.png)no-repeat -276px -363px;
+                }
+            }
+        li:nth-child(10):hover{
+            span{
+                background: url(../images/2016CommonSprite.png)no-repeat -295px -363px;
+            }
+        }
+        li:nth-child(1){
+            position: relative;
+            .more_tag{
+                background: url(../images/2016CommonSprite.png)no-repeat -276px -177px;
+            }
+            .tag_name{
+                display: block;
+                width: 500px;
+                height: 600px;
+                border: 1px solid black;
+                position: absolute;
+                top: 47px;
+                left: 0;
+                .left{
+                    width: 300px;
+                    height: 600px;
+                    border: 1px solid red;
+                    float: left;
+                    
+                    .tag_search{
+                        width: 294px;
+                        height: 30px;
+                        border: 3px solid #521b76;
+                        border-radius: 5px;
+                        input{
+                            width: 265px;
+                            height: 30px;
+                            outline: none;
+                            float: left;
+                            border: 0;
+                        }
+                        span{
+                            margin: 0;
+                            display: inline-block;
+                            width: 20px;
+                            height: 30px;
+                            float: left;
+                            background: url(../images/search.jpg)no-repeat center center;
+                            cursor: pointer;
+                        }
+                    }
+                    .charactor{
+                        position: relative;
+                        width: 298px;
+                        height: 565px;
+                        
+                        .u1{
+                            width: 20px;
+                            height: 565px;
+                            position: absolute;
+                            top:0;
+                            left: 0;
+                            li{
+                                list-style: none;
+                                float: left;
+                                width: 15px;
+                                height: 15px;
+                                margin: 0;
+                                border:1px solid black;
+                                border-radius: 8px;
+                                text-align: center;
+                                line-height: 15px;
+                                font-size: 10px;
+                                color: #623381;
+                                margin-bottom: 3px;
+                            }
+                        }
+                        .brand{
+                            width: 276px;
+                            height: 565px;
+                            border: 1px solid red;
+                            position: absolute;
+                            overflow: auto;
+                            top: 0;
+                            left: 20px;
+                            .charactor_tag{
+                                display: block;
+                                cursor: pointer;
+                                font-size: 20px;    
+                                color: #521b76;
+                                font-weight: 
+                                bold;width: 100%;
+                                text-align: left;
+                            }
+                        }
+                    }
+                }
+                
+                .recommend{
+                    width: 196px;
+                    height: 600px;
+                    border: 1px solid red;
+                    float: left;
+                    h3{
+                        color: white;
+                        background: #623381;
+                    }
+                }
+            }
+            
+        }
+    }
+}

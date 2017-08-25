@@ -1,9 +1,9 @@
 require.config({
 	baseUrl:"/",
 	paths:{
-		"jQuery":"lib/jquery/jquery-1.12.4",
+		"jquery":"lib/jquery/jquery-1.12.4",
 		"cookie":"lib/jquery_plugins/jquery.cookie",
-		"template":"arttemplate/template-native",
+		"template":"lib/arttemplate/template-native",
 		"load":"js/loadheader"
 	}
 })

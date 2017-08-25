@@ -1,4 +1,4 @@
-define(["jQuery","cookie"],function($){
+define(["jquery","cookie"],function($){
 	$.ajax({
 		type:"get",
 		url:"/html/header.html",
@@ -12,7 +12,7 @@ define(["jQuery","cookie"],function($){
 			}
 			else{
 				$(data).appendTo(".header");
-				console.log(data);
+				
 			}
 		}
 	});

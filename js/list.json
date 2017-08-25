@@ -1,5 +1,5 @@
 [
-   		{"name":"商品1","imgSrc":"","price":199},
-   		{"name":"商品2","imgSrc":"","price":299},
-   		{"name":"商品3","imgSrc":"","price":399}
+   		{"name":"阿迪达斯","eng_name":"Adidas","imgSrc":"","price":199},
+   		{"name":"阿贝克隆比&费奇&AF","eng_name":"Abercrombie & Fitch","imgSrc":"","price":299},
+   		{"name":"阿诺资","eng_name":"Arezia","imgSrc":"","price":399}
 ]

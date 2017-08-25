@@ -1,0 +1,288 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.login {
+  width: 100%;
+  height: 165px;
+  border: 1px solid red;
+  position: fixed;
+}
+.login .banner {
+  width: 1278px;
+  height: 115px;
+  background: url(../images/2016headerbg.jpg) no-repeat center center;
+  background-size: 168% 100%;
+  position: relative;
+}
+.login .banner .logo {
+  display: block;
+  width: 268px;
+  height: 63px;
+  background: url(../images/2016CompanyLogo.png) no-repeat center center;
+  position: absolute;
+  top: 25px;
+  left: 60px;
+}
+.login .banner .input {
+  width: 300px;
+  height: 30px;
+  border: 3px solid #521b76;
+  position: absolute;
+  top: 40px;
+  left: 500px;
+  border-radius: 5px;
+}
+.login .banner .input input {
+  width: 265px;
+  height: 30px;
+  outline: none;
+  float: left;
+  border: 0;
+  color: #521b76;
+  font-size: 14px;
+}
+.login .banner .input input::-moz-placeholder {
+  color: #521b76;
+}
+.login .banner .input input::-webkit-input-placeholder {
+  color: #521b76;
+}
+.login .banner .input span {
+  display: inline-block;
+  width: 35px;
+  height: 30px;
+  background: url(../images/search.jpg) no-repeat center center;
+  float: left;
+}
+.login .banner ul {
+  width: 325px;
+  height: 30px;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+.login .banner ul li {
+  float: left;
+  list-style: none;
+  background: url(../images/border.jpg) no-repeat right center;
+  padding: 10px;
+  font-size: 12px;
+}
+.login .banner ul li a {
+  text-decoration: none;
+}
+.login .banner ul li span {
+  display: inline-block;
+  width: 20px;
+  height: 10px;
+  background: url(../images/xiala.jpg) no-repeat center center;
+}
+.login .banner ul .lastChild {
+  background-image: none;
+}
+.login .banner .userInfo {
+  position: absolute;
+  width: 223px;
+  height: 50px;
+  top: 50px;
+  right: 30px;
+}
+.login .banner .userInfo dl {
+  float: left;
+  padding-right: 10px;
+  margin-top: 10px;
+}
+.login .banner .userInfo dl dt {
+  width: 35px;
+  height: 35px;
+  float: left;
+  margin-right: 10px;
+}
+.login .banner .userInfo dl .login_pic {
+  background: url(../images/2016CommonSprite.png) no-repeat -276px -314px;
+}
+.login .banner .userInfo dl .cart_pic {
+  background: url(../images/2016CommonSprite.png) no-repeat -311px -314px;
+}
+.login .banner .userInfo dl dd {
+  float: left;
+  line-height: 35px;
+  font-size: 14px;
+}
+.login .banner .userInfo dl dd a {
+  color: #b56fb8;
+  text-decoration: none;
+}
+.login .nav {
+  width: 1278px;
+  height: 50px;
+  border: 1px solid black;
+  background: linear-gradient(to right, #623381 30%, #c62f7a 100%);
+}
+.login .nav li {
+  margin-top: 5px;
+  width: 111px;
+  height: 45px;
+  line-height: 45px;
+  list-style: none;
+  float: left;
+  color: white;
+  text-align: center;
+}
+.login .nav li a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+.login .nav li:nth-child(1) {
+  margin-left: 50px;
+  width: 225px;
+  text-align: center;
+  color: white;
+}
+.login .nav li:nth-child(1) span {
+  margin-top: 7px;
+  display: inline-block;
+  width: 15px;
+  height: 30px;
+  background: url(../images/2016CommonSprite.png) no-repeat -260px -175px;
+  float: left;
+  margin: 8px 5px 0 30px;
+}
+.login .nav li:nth-child(1) a {
+  float: left;
+  display: inline-block;
+  height: 45px;
+  font-size: 16px;
+}
+.login .nav li:nth-child(1) .tag_name {
+  display: none;
+}
+.login .nav li:nth-child(9) span {
+  display: inline-block;
+  width: 20px;
+  height: 22px;
+  background: url(../images/2016CommonSprite.png) no-repeat -276px -347px;
+}
+.login .nav li:nth-child(10) span {
+  display: inline-block;
+  width: 20px;
+  height: 22px;
+  background: url(../images/2016CommonSprite.png) no-repeat -295px -347px;
+}
+.login .nav li:hover {
+  background: white;
+  border-radius: 5px;
+  height: 47px;
+}
+.login .nav li:hover a {
+  color: black;
+  text-decoration: underline;
+}
+.login .nav li:nth-child(9):hover span {
+  background: url(../images/2016CommonSprite.png) no-repeat -276px -363px;
+}
+.login .nav li:nth-child(10):hover span {
+  background: url(../images/2016CommonSprite.png) no-repeat -295px -363px;
+}
+.login .nav li:nth-child(1) {
+  position: relative;
+}
+.login .nav li:nth-child(1) .more_tag {
+  background: url(../images/2016CommonSprite.png) no-repeat -276px -177px;
+}
+.login .nav li:nth-child(1) .tag_name {
+  display: block;
+  width: 500px;
+  height: 600px;
+  border: 1px solid black;
+  position: absolute;
+  top: 47px;
+  left: 0;
+}
+.login .nav li:nth-child(1) .tag_name .left {
+  width: 300px;
+  height: 600px;
+  border: 1px solid red;
+  float: left;
+}
+.login .nav li:nth-child(1) .tag_name .left .tag_search {
+  width: 294px;
+  height: 30px;
+  border: 3px solid #521b76;
+  border-radius: 5px;
+}
+.login .nav li:nth-child(1) .tag_name .left .tag_search input {
+  width: 265px;
+  height: 30px;
+  outline: none;
+  float: left;
+  border: 0;
+}
+.login .nav li:nth-child(1) .tag_name .left .tag_search span {
+  margin: 0;
+  display: inline-block;
+  width: 20px;
+  height: 30px;
+  float: left;
+  background: url(../images/search.jpg) no-repeat center center;
+  cursor: pointer;
+}
+.login .nav li:nth-child(1) .tag_name .left .charactor {
+  position: relative;
+  width: 298px;
+  height: 565px;
+}
+.login .nav li:nth-child(1) .tag_name .left .charactor .u1 {
+  width: 20px;
+  height: 565px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.login .nav li:nth-child(1) .tag_name .left .charactor .u1 li {
+  list-style: none;
+  float: left;
+  width: 15px;
+  height: 15px;
+  margin: 0;
+  border: 1px solid black;
+  border-radius: 8px;
+  text-align: center;
+  line-height: 15px;
+  font-size: 10px;
+  color: #623381;
+  margin-bottom: 3px;
+}
+.login .nav li:nth-child(1) .tag_name .left .charactor .brand {
+  width: 276px;
+  height: 565px;
+  border: 1px solid red;
+  position: absolute;
+  overflow: auto;
+  top: 0;
+  left: 20px;
+}
+.login .nav li:nth-child(1) .tag_name .left .charactor .brand .charactor_tag {
+  display: block;
+  cursor: pointer;
+  font-size: 20px;
+  color: #521b76;
+  font-weight: bold;
+  width: 100%;
+  text-align: left;
+}
+.login .nav li:nth-child(1) .tag_name .recommend {
+  width: 196px;
+  height: 600px;
+  border: 1px solid red;
+  float: left;
+}
+.login .nav li:nth-child(1) .tag_name .recommend h3 {
+  color: white;
+  background: #623381;
+}
+
+/*# sourceMappingURL=header.css.map */
