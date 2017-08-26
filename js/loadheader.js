@@ -16,4 +16,14 @@ define(["jquery","cookie"],function($){
 			}
 		}
 	});
+	
+	$.ajax({
+		type:"get",
+		url:"/html/footer.html",
+		async:true,
+		success:function(dataes){
+			$(dataes).appendTo(".footer");
+			
+		}
+	});
 });

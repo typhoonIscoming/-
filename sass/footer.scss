@@ -1,0 +1,394 @@
+$width:1260px;
+*{margin: 0 auto;padding: 0;}
+.footer{
+    width: $width;
+}
+.footer_content{
+    width:100%;
+    height:728px;
+    background: linear-gradient(to right, #623381 30%,#c62f7a 100%);
+    .focusUs{
+        width: $width;
+        height: 235px;
+       .focusUs_left{
+           width: 420px;
+           height: 200px;
+           margin-top: 35px;
+           float: left;
+           h2{
+               color: white;
+               font-size: 24px;
+               margin-left: 48px;
+           }
+           .news_search{
+               width: 300px;
+               height: 40px;
+               border: 1px solid black;
+               margin-left: 48px;
+               margin-top: 30px;
+               background: #52246d;
+               input{
+                   width: 260px;
+                   height: 40px;
+                   border: 0;
+                   font-size: 16px;
+                   outline: none;
+                   float: left;
+                   
+               }
+               span{
+                   display: inline-block;
+                   width: 40px;
+                   height: 40px;
+                   cursor: pointer;
+                   background:#52246d;
+                   color: white;
+                   float: left;
+                   text-align:ccenter;
+                   line-height:40px;  
+                   
+               }
+               span:hover{
+                       color: #52246d;
+                       background: white;
+                   }
+           }
+           ul{
+               width: 370px;
+               height: 33px;
+               margin-top: 20px;
+               margin-left: 48px;
+               li{
+                   list-style: none;
+                   float: left;
+                   width: 36px;
+                   height: 33px;
+                   margin-right:18px;
+                   cursor:pointer;
+               }
+               li:nth-child(1){
+                   background: url(../images/2016CommonSprite.png)no-repeat -286px -478px;  
+               }
+               li:nth-child(2){
+                   background: url(../images/2016CommonSprite.png)no-repeat -250px -478px;
+               }
+               li:nth-child(3){
+                   background: url(../images/2016CommonSprite.png)no-repeat -145px -282px;
+               }
+               li:nth-child(4){
+                   background: url(../images/2016CommonSprite.png)no-repeat 0 -478px;
+               }
+               li:nth-child(5){
+                   background: url(../images/2016CommonSprite.png)no-repeat -177px -478px;
+               }
+               li:nth-child(6){
+                   background: url(../images/2016CommonSprite.png)no-repeat -217px -231px;
+               }
+           }
+          
+       }
+       .focusUs_middle{
+            width: 420px;
+            height: 200px;
+            position: relative;
+            margin-top: 35px;
+            color: white;
+            font-size: 24px;
+            float: left;
+            span{
+                display: inline-block;
+                width: 78px;
+                height: 97px;
+                position: absolute;
+                top: 20px;
+                left: 20px;
+                background: url(../images/2016CommonSprite.png)no-repeat -89px -381px;
+            }
+            p{
+                margin-left: 150px;
+                text-align: left;
+            }
+            p:nth-child(3){
+                font-weight: 800;
+            }
+            
+       }
+       .focusUs_right{
+           width: 300px;
+            height: 200px;
+            position: relative;
+            margin-top: 35px;
+            color: white;
+            font-size: 24px;
+            float: left;
+            span{
+                display: inline-block;
+                width: 78px;
+                height: 97px;
+                position: absolute;
+                top: 20px;
+                left: 20px;
+                background: url(../images/2016CommonSprite.png)no-repeat -10px -5px;
+            }
+            p{
+                margin-left: 120px;
+                margin-top: 35px;
+            }
+       }
+    }
+    
+    .links{
+        width: $width;
+        height: 490px;
+        background: #52246D;
+        
+        .links_top{
+            width: 100%;
+            height: 130px;
+            border-bottom: 1px solid white;
+            ul{
+                margin-top: 30px;
+                margin-left: 48px;
+                width: 500px;
+                height: 50px;
+                float: left;
+                li{
+                    list-style: none;
+                    float: left;
+                    width: 100px;
+                    text-align: center;
+                    border-right: 1px solid #c30f8c;
+                    line-height: 30px;
+                    a{
+                        text-decoration: none;
+                        color: white;
+                        font-size: 12px;
+                    }
+                }
+                li:nth-child(4){
+                    border-right: none;
+                }
+                li:hover{
+                    a{
+                        color: #c30f8c;
+                    }
+                }
+            }
+            dl{
+                width: 200px;
+                height: 30px;
+                margin-top: 35px;
+                float: right;
+                dt{
+                    float: left;
+                    width: 30px;
+                    height: 30px;
+                    background: url(../images/2016CommonSprite.png)no-repeat -325px -478px;
+                }
+                dd{
+                    float: left;
+                    a{
+                       color: white; 
+                       text-decoration: none;
+                    }
+                    
+                }
+            }
+        }
+        
+        .links_middle{
+            width: $width;
+            height: 278px;
+            border-bottom: 3px solid #ee2c72;
+            .links_md_l{
+                width: 315px;
+                height: 278px;
+                float: left;
+                p{
+                    color: white;
+                    margin-top: 20px;
+                    margin-left: 48px;
+                }
+                ul{
+                    width: 315px;
+                    height: 240px;
+                    li{
+                        width: 90px;
+                        height: 60px;
+                        margin: 5px 5px;
+                        list-style: none;
+                        cursor: pointer;
+                        float: left;
+                    }
+                    li:nth-child(1){
+                        background: url(../images/Alipay_16.png)no-repeat center center;
+                    }
+                    li:nth-child(2){
+                        background: url(../images/wechatpayCN_16.jpg)no-repeat 60% 60%;
+                        background-size: 85% 75%;
+                    }
+                    li:nth-child(3){
+                        background: url(../images/banktransferCN_16.jpg)no-repeat 60% 60%;
+                        background-size: 85% 75%;
+                    }
+                    li:nth-child(4){
+                        background: url(../images/Unionpay_16.png)no-repeat center center;
+                    }
+                    li:nth-child(5){
+                        background: url(../images/99bill_16.png)no-repeat center center;
+                    }
+                    li:nth-child(6){
+                        background: url(../images/tenpay_16.png)no-repeat center center;
+                    }
+                    li:nth-child(7){
+                        background: url(../images/DiscoverMore.png)no-repeat center center;
+                    }
+                }
+            }
+            .links_md_lm{
+                width: 315PX;
+                height: 278px;
+                float: left;
+                .u1{
+                    width: 110px;
+                    height: 278px;
+                    margin-left: 45px;
+                    float: left;
+                    li{
+                        color: white;
+                        margin-top: 10px;
+                        font-size: 14px;
+                        list-style: none;
+                        a{
+                            color: white;
+                            text-decoration: none;
+                        }
+                    }
+                    li:nth-child(1){
+                        margin-top: 20px;
+                        
+                    }
+                }
+                .u2{
+                    width: 150px;
+                    height: 278px;
+                    float: left;
+                    li{
+                        color: white;
+                        margin-top: 10px;
+                        font-size: 14px;
+                        list-style: none;
+                        a{
+                            color: white;
+                            text-decoration: none;
+                        }
+                    }
+                    li:nth-child(1){
+                        margin-top: 20px;
+                    }
+                }
+            }
+            .links_md_m{
+                width: 315px;
+                height: 278px;
+                float: left;
+                p{
+                    color: white;
+                    margin-top: 20px;
+                }
+                ul{
+                    width: 100px;
+                    height: 90px;
+                    float: left;
+                    li{
+                        list-style: none;
+                        width: 100px;
+                        height: 40px;
+                        border: 1px solid black;
+                        margin-top: 20px;
+                    }
+                    li:nth-child(1){
+                        background: url(../images/2016CommonSprite.png)no-repeat -132px -596px;
+                    }
+                    li:nth-child(2){
+                        background: url(../images/2016CommonSprite.png)no-repeat -234px -596px;
+                    }
+                }
+                img{
+                    width: 100px;
+                    height: 100px;
+                    margin-left: 40px;
+                    margin-top: 20px;
+                }
+            }
+            
+            .links_md_r{
+                width: 300px;
+                height: 278px;
+                
+                float: left;
+                p{
+                    margin-top: 20px;
+                    color: white;
+                }
+                .judge{
+                    width: 300px;
+                    height: 100px;
+                    img{
+                        width: 125px;
+                        height: 73px;
+                        margin-top: 20px;
+                        float: left;
+                    }
+                }
+            }
+        }
+        
+        .links_bottom{
+            width: $width;
+            height: 78px;
+            border: 1px solid black;
+            .links_bt_co{
+                width: 300px;
+                height: 78px;
+                float: left;
+                ul{
+                width: 300px;
+                height: 20px;
+                float: left;
+                li{
+                    width: 100px;
+                    height: 20px;
+                    line-height: 20px;
+                    float: left;
+                    text-align: center;
+                    list-style: none;
+                    border-right: 1px solid white;
+                    a{
+                        color: white;
+                        font-size: 12px;
+                        text-decoration: none;
+                    }
+                }
+                li:nth-child(2){
+                    border: 0;
+                }
+            }
+                p{
+                    float: left;
+                    margin-top: 10px;
+                    margin-left: 20px;
+                    color: white;
+                    font-size: 12px;
+                }
+                
+            }
+            
+            
+            
+        }
+        
+        
+    }
+    
+}

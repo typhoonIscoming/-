@@ -1,5 +1,18 @@
 [
    		{"name":"阿迪达斯","eng_name":"Adidas","imgSrc":"","price":199},
    		{"name":"阿贝克隆比&费奇&AF","eng_name":"Abercrombie & Fitch","imgSrc":"","price":299},
-   		{"name":"阿诺资","eng_name":"Arezia","imgSrc":"","price":399}
+   		{"name":"阿诺资","eng_name":"Arezia","imgSrc":"","price":399},
+   		{"name":"巴宝","eng_name":"Babor","imgSrc":"","price":499},
+   		{"name":"巴宝莉 ","eng_name":"Burberry","imgSrc":"","price":199},
+   		{"name":"芭妮兰 ","eng_name":"Banila Co.","imgSrc":"","price":299},
+   		{"name":"巴黎世家 ","eng_name":"Balenciaga","imgSrc":"","price":399},
+   		{"name":"城市猎人","eng_name":"Chevignon","imgSrc":"","price":499},
+   		{"name":"瓷光","eng_name":"China Glaze","imgSrc":"","price":199},
+   		{"name":"迪奥 ","eng_name":"Christian Dior","imgSrc":"","price":299},
+   		{"name":"封面女郎 ","eng_name":"Covergirl","imgSrc":"","price":399},
+   		{"name":"古巴 ","eng_name":"Cuba","imgSrc":"","price":499},
+   		{"name":"丹娜  ","eng_name":"Dana","imgSrc":"","price":199},
+   		{"name":"德国世家  ","eng_name":"Dr. Hauschka","imgSrc":"","price":299},
+   		{"name":"法巴芝  ","eng_name":"Faberge","imgSrc":"","price":399},
+   		{"name":"梵熙 ","eng_name":"Fascy","imgSrc":"","price":499}
 ]
