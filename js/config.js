@@ -5,5 +5,6 @@ require.config({
 		"cookie":"lib/jquery_plugins/jquery.cookie",
 		"template":"lib/arttemplate/template-native",
 		"load":"js/loadheader"
+		
 	}
 })
