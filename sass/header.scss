@@ -29,14 +29,14 @@ $width:1278px;
         
         .input{
             width: 300px;
-            height: 30px;
+            height: 36px;
             border: 3px solid #521b76;
             position: absolute;
             top: 40px;
             left: 500px;
             border-radius: 5px;
             input{
-                width: 265px;
+                width: 258px;
                 height: 30px;
                 outline: none;
                 float: left;
@@ -54,13 +54,14 @@ $width:1278px;
                 display: inline-block;
                 width: 35px;
                 height: 30px;
+                cursor: pointer;
                 background: url(../images/search.jpg)no-repeat center center; 
                 float: left;
             }
             
         }
         ul{
-            width: 325px;
+            width: 338px;
             height: 30px;
             position: absolute;
             top: 15px;
@@ -128,7 +129,6 @@ $width:1278px;
     .nav{
         width: $width;
         height: 50px;
-        border: 1px solid black;
         background: linear-gradient(to right, #623381 30%,#c62f7a 100%);
         li{
             margin-top: 5px;

@@ -5,8 +5,61 @@
 
 .content {
   width: 1260px;
-  height: 500px;
   margin-top: 166px;
+  border: 1px solid black;
+}
+.content .container {
+  width: 1140px;
+  height: 317px;
+  border: 12px solid #521b76;
+  margin-top: 35px;
+}
+.content .container .carousel-indicators li {
+  width: 40px;
+  height: 20px;
+  background: red;
+}
+.content .today_sale {
+  width: 1140px;
+}
+.content .today_sale .today_title {
+  width: 1140px;
+  height: 50px;
+  position: relative;
+}
+.content .today_sale .today_title hr {
+  border: 3px solid black;
+  margin-top: 55px;
+}
+.content .today_sale .today_title .settime {
+  width: 250px;
+  height: 80px;
+  position: absolute;
+  top: -50px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 9;
+  background: white;
+  text-align: center;
+}
+.content .today_sale .today_title .settime p {
+  letter-spacing: 5px;
+  font-size: 24px;
+  font-weight: 800;
+}
+.content .today_sale .today_title .settime span {
+  margin-top: 20px;
+  color: red;
+  font-size: 20px;
+}
+.content .today_sale .today_title .settime span:nth-child(2) {
+  color: black;
+}
+.content .today_sale .product_list {
+  width: 1140px;
+  border: 1px solid red;
 }
 
 /*# sourceMappingURL=content.css.map */

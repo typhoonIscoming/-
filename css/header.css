@@ -34,7 +34,7 @@
 }
 .login .banner .input {
   width: 300px;
-  height: 30px;
+  height: 36px;
   border: 3px solid #521b76;
   position: absolute;
   top: 40px;
@@ -42,7 +42,7 @@
   border-radius: 5px;
 }
 .login .banner .input input {
-  width: 265px;
+  width: 258px;
   height: 30px;
   outline: none;
   float: left;
@@ -60,11 +60,12 @@
   display: inline-block;
   width: 35px;
   height: 30px;
+  cursor: pointer;
   background: url(../images/search.jpg) no-repeat center center;
   float: left;
 }
 .login .banner ul {
-  width: 325px;
+  width: 338px;
   height: 30px;
   position: absolute;
   top: 15px;
@@ -125,7 +126,6 @@
 .login .nav {
   width: 1278px;
   height: 50px;
-  border: 1px solid black;
   background: linear-gradient(to right, #623381 30%, #c62f7a 100%);
 }
 .login .nav li {

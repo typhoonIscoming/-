@@ -1,6 +1,7 @@
-[
-   		{"name":"阿迪达斯","eng_name":"Adidas","imgSrc":"","price":199},
-   		{"name":"阿贝克隆比&费奇&AF","eng_name":"Abercrombie & Fitch","imgSrc":"","price":299},
+{
+"list":[
+   		{"name":"阿迪达斯","eng_name":"Adidas","imgSrc":"images/17110880439.jpg","price":199,"detail":"控油洁面乳 200ml/6.7oz","oldPrice":299},
+   		{"name":"阿贝克隆比&费奇&AF","eng_name":"Abercrombie & Fitch","imgSrc":"","price":299,"imgSrc":"images/17110880439.jpg"},
    		{"name":"阿诺资","eng_name":"Arezia","imgSrc":"","price":399},
    		{"name":"巴宝","eng_name":"Babor","imgSrc":"","price":499},
    		{"name":"巴宝莉 ","eng_name":"Burberry","imgSrc":"","price":199},
@@ -16,3 +17,4 @@
    		{"name":"法巴芝  ","eng_name":"Faberge","imgSrc":"","price":399},
    		{"name":"梵熙 ","eng_name":"Fascy","imgSrc":"","price":499}
 ]
+}

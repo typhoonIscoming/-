@@ -201,6 +201,7 @@
   background: #e9568b;
 }
 .login_content .close_tag {
+  display: block;
   width: 20px;
   height: 20px;
   position: absolute;

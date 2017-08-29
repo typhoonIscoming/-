@@ -2,6 +2,65 @@ $width:1260px;
 *{margin: 0 auto;padding: 0;}
 .content{
     width: $width;
-    height: 500px;
     margin-top: 166px;
+    border: 1px solid black;
+    .container{
+        width: 1140px;
+        height: 317px;
+        border: 12px solid #521b76;
+        margin-top: 35px;
+        .carousel-indicators{
+            li{
+                width: 40px;
+                height: 20px;
+                background: red;
+            }
+        }
+    }
+    
+    .today_sale{
+            width: 1140px;
+            .today_title{
+                width: 1140px;
+                height: 50px;
+                position: relative;
+                hr{
+                    border: 3px solid black;
+                    margin-top: 55px;
+                }
+                .settime{
+                    width: 250px;
+                    height: 80px;
+                    position: absolute;
+                    top: -50px;
+                    right: 0;
+                    left: 0;
+                    bottom: 0;
+                    margin: auto;
+                    z-index: 9;
+                    background: white;
+                    text-align: center;
+                    p{
+                        letter-spacing: 5px;
+                        font-size: 24px;
+                        font-weight: 800;
+                    }
+                    span{
+                        margin-top: 20px;
+                        color: red;
+                        font-size: 20px;
+                    }
+                    span:nth-child(2){
+                        color: black;
+                    }
+                }
+            }
+            .product_list{
+                width: 1140px;
+                border: 1px solid red;
+                
+            } 
+        }
+        
+      
 }
