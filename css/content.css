@@ -5,8 +5,7 @@
 
 .content {
   width: 1260px;
-  margin-top: 166px;
-  border: 1px solid black;
+  margin-top: 200px;
 }
 .content .container {
   width: 1140px;
@@ -32,7 +31,7 @@
   margin-top: 55px;
 }
 .content .today_sale .today_title .settime {
-  width: 250px;
+  width: 265px;
   height: 80px;
   position: absolute;
   top: -50px;
@@ -58,8 +57,113 @@
   color: black;
 }
 .content .today_sale .product_list {
+  overflow: hidden;
   width: 1140px;
-  border: 1px solid red;
+}
+.content .today_sale .product_list .row_content {
+  float: left;
+  width: 270px;
+  height: 500px;
+  margin: 7px;
+}
+.content .today_sale .product_list .row_content .pic {
+  width: 270px;
+  height: 300px;
+}
+.content .today_sale .product_list .row_content .pic img {
+  width: 270px;
+  height: 300px;
+}
+.content .today_sale .product_list .row_content .xiangqing p {
+  margin-left: 5px;
+}
+.content .today_sale .product_list .row_content .cart {
+  width: 90px;
+  height: 30px;
+  background: #00a69c;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  line-height: 30px;
+  border-radius: 5px;
+}
+.content .today_sale .product_list .row_content .dazhe {
+  text-align: center;
+}
+.content .today_sale .product_list .row_content:hover {
+  box-shadow: 0px 5px 5px 5px gainsboro;
+}
+.content .tuijian {
+  width: 100%;
+  background: #ebe5f1;
+  height: 660px;
+}
+.content .tuijian .tuijian_blank {
+  width: 1140px;
+  height: 80px;
+  overflow: hidden;
+  position: relative;
+}
+.content .tuijian .tuijian_blank hr {
+  border: 3px solid #65318f;
+  margin-top: 40px;
+}
+.content .tuijian .tuijian_blank .tuijian_title {
+  width: 200px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 0;
+  right: 0;
+  z-index: 9;
+  background: white;
+  text-align: center;
+  line-height: 50px;
+  font-size: 24px;
+  font-weight: 800;
+}
+.content .tuijian .tuijian_pro {
+  width: 1140px;
+  overflow: hidden;
+}
+.content .tuijian .tuijian_pro .jianhuo {
+  width: 270px;
+  float: left;
+  height: 500px;
+  margin: 5px 7px;
+  border: 3px solid #65318f;
+}
+.content .tuijian .tuijian_pro .jianhuo .pic {
+  width: 270px;
+  height: 300px;
+}
+.content .tuijian .tuijian_pro .jianhuo .pic img {
+  width: 263px;
+  height: 300px;
+}
+.content .tuijian .tuijian_pro .jianhuo .xiangqing {
+  height: 194px;
+  background: white;
+}
+.content .tuijian .tuijian_pro .jianhuo .xiangqing p {
+  margin-left: 5px;
+}
+.content .tuijian .tuijian_pro .jianhuo .xiangqing .cart {
+  width: 90px;
+  height: 30px;
+  background: #00a69c;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  line-height: 30px;
+  border-radius: 5px;
+}
+.content .tuijian .tuijian_pro .jianhuo .xiangqing .dazhe {
+  text-align: center;
 }
 
 /*# sourceMappingURL=content.css.map */

@@ -3,14 +3,14 @@
   padding: 0; }
 
 .footer {
-  width: 1260px; }
+  width: 1263px; }
 
 .footer_content {
   width: 100%;
   height: 728px;
   background: linear-gradient(to right, #623381 30%, #c62f7a 100%); }
   .footer_content .focusUs {
-    width: 1260px;
+    width: 1263px;
     height: 235px; }
     .footer_content .focusUs .focusUs_left {
       width: 420px;
@@ -37,8 +37,8 @@
           float: left; }
         .footer_content .focusUs .focusUs_left .news_search span {
           display: inline-block;
-          width: 40px;
-          height: 40px;
+          width: 38px;
+          height: 38px;
           cursor: pointer;
           background: #52246d;
           color: white;
@@ -113,7 +113,7 @@
         margin-left: 120px;
         margin-top: 35px; }
   .footer_content .links {
-    width: 1260px;
+    width: 1263px;
     height: 490px;
     background: #52246D; }
     .footer_content .links .links_top {
@@ -157,7 +157,7 @@
             color: white;
             text-decoration: none; }
     .footer_content .links .links_middle {
-      width: 1260px;
+      width: 1263px;
       height: 278px;
       border-bottom: 3px solid #ee2c72; }
       .footer_content .links .links_middle .links_md_l {
@@ -269,7 +269,7 @@
             margin-top: 20px;
             float: left; }
     .footer_content .links .links_bottom {
-      width: 1260px;
+      width: 1263px;
       height: 78px;
       border: 1px solid black; }
       .footer_content .links .links_bottom .links_bt_co {

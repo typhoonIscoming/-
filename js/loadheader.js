@@ -7,7 +7,7 @@ define(["jquery","cookie","template","fly"],function($){
 			var _username=$.cookie("loginUser");
 			if(_username){
 				$(data).filter(".header")
-					   .html(`欢迎你:}`).end()
+					   .html(`欢迎你:`).end()
 					   .appendTo(".header");
 //				var  $.getCookie("loginUser")
 //				$(".click_login").text("欢迎您")
@@ -99,6 +99,37 @@ define(["jquery","cookie","template","fly"],function($){
 				});
 				
 			});
+			
+			
+			
+			
+			
+			//获取后台数据,添加到头文件导航中第一个li中
+			$.getJSON("/js/list.json",function(data){
+				var num=data.list.length;
+				var engName;
+				var len= $(".brand").children().length
+				
+				for(var i=0;i<num;i++){
+					engName=(data.list)[i].eng_name;
+					
+					for(var j=0;j<len;j++){
+						if($(".brand").children().eq(j).attr("id").slice(0,1)==engName.slice(0,1).toLowerCase()){
+					   		
+					   		$(".brand").children().eq(j).append(`<a href='#'>${engName}</a>`);
+					   }
+					}
+				}	
+			});	
+			
+			
+				//实现楼梯效果
+				$(function(){
+					var pro_height=$(".brand").css("height");
+					console.log(pro_height);
+				});
+				
+			
 			
 		}
 	});

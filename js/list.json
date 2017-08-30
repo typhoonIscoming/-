@@ -1,20 +1,23 @@
 {
 "list":[
-   		{"name":"阿迪达斯","eng_name":"Adidas","imgSrc":"images/17110880439.jpg","price":199,"detail":"控油洁面乳 200ml/6.7oz","oldPrice":299},
-   		{"name":"阿贝克隆比&费奇&AF","eng_name":"Abercrombie & Fitch","imgSrc":"","price":299,"imgSrc":"images/17110880439.jpg"},
-   		{"name":"阿诺资","eng_name":"Arezia","imgSrc":"","price":399},
-   		{"name":"巴宝","eng_name":"Babor","imgSrc":"","price":499},
-   		{"name":"巴宝莉 ","eng_name":"Burberry","imgSrc":"","price":199},
-   		{"name":"芭妮兰 ","eng_name":"Banila Co.","imgSrc":"","price":299},
-   		{"name":"巴黎世家 ","eng_name":"Balenciaga","imgSrc":"","price":399},
-   		{"name":"城市猎人","eng_name":"Chevignon","imgSrc":"","price":499},
-   		{"name":"瓷光","eng_name":"China Glaze","imgSrc":"","price":199},
-   		{"name":"迪奥 ","eng_name":"Christian Dior","imgSrc":"","price":299},
-   		{"name":"封面女郎 ","eng_name":"Covergirl","imgSrc":"","price":399},
-   		{"name":"古巴 ","eng_name":"Cuba","imgSrc":"","price":499},
-   		{"name":"丹娜  ","eng_name":"Dana","imgSrc":"","price":199},
-   		{"name":"德国世家  ","eng_name":"Dr. Hauschka","imgSrc":"","price":299},
-   		{"name":"法巴芝  ","eng_name":"Faberge","imgSrc":"","price":399},
-   		{"name":"梵熙 ","eng_name":"Fascy","imgSrc":"","price":499}
+   		{"id":1,"name":"阿迪达斯","eng_name":"Adidas","imgSrc":"images/17110880439.jpg","price":199,"detail":"控油洁面乳 200ml/6.7oz","oldPrice":299},
+   		{"id":2,"name":"阿贝克隆比&费奇&AF","eng_name":"Abercrombie & Fitch","imgSrc":"","price":299,"oldPrice":399,"imgSrc":"images/17110880439.jpg","detail":"控油洁面乳 200ml/6.7oz"},
+   		{"id":3,"name":"阿诺资","eng_name":"Arezia","imgSrc":"images/17110880439.jpg","price":399,"oldPrice":499,"detail":"控油洁面乳 200ml/6.7oz"},
+   		{"id":4,"name":"巴宝","eng_name":"Babor","imgSrc":"images/17110880439.jpg","price":499,"oldPrice":599,"detail":"控油洁面乳 200ml/6.7oz"},
+   		{"id":5,"name":"巴宝莉 ","eng_name":"Burberry","imgSrc":"images/17110880439.jpg","price":199,"oldPrice":699,"detail":"控油洁面乳 200ml/6.7oz"},
+   		{"id":6,"name":"芭妮兰 ","eng_name":"Banila Co.","imgSrc":"images/17110880439.jpg","price":299,"oldPrice":799,"detail":"控油洁面乳 200ml/6.7oz"},
+   		{"id":7,"name":"巴黎世家 ","eng_name":"Balenciaga","imgSrc":"images/17110880439.jpg","price":399,"oldPrice":899,"detail":"控油洁面乳 200ml/6.7oz"},
+   		{"id":8,"name":"城市猎人","eng_name":"Chevignon","imgSrc":"images/17110880439.jpg","price":499,"oldPrice":999,"detail":"控油洁面乳 200ml/6.7oz"},
+   		{"id":9,"name":"瓷光","eng_name":"China Glaze","imgSrc":"images/17110880439.jpg","price":199,"oldPrice":288,"detail":"控油洁面乳 200ml/6.7oz"},
+   		{"id":10,"name":"迪奥 ","eng_name":"Christian Dior","imgSrc":"images/17110880439.jpg","price":299,"oldPrice":388,"detail":"控油洁面乳 200ml/6.7oz"},
+   		{"id":11,"name":"封面女郎 ","eng_name":"Covergirl","imgSrc":"images/17110880439.jpg","price":399,"oldPrice":488,"detail":"控油洁面乳 200ml/6.7oz"},
+   		{"id":12,"name":"古巴 ","eng_name":"Cuba","imgSrc":"images/17110880439.jpg","price":499,"oldPrice":588,"detail":"控油洁面乳 200ml/6.7oz"},
+   		{"id":13,"name":"丹娜  ","eng_name":"Dana","imgSrc":"images/17110880439.jpg","price":199,"oldPrice":688,"detail":"控油洁面乳 200ml/6.7oz"},
+   		{"id":14,"name":"德国世家  ","eng_name":"Dr. Hauschka","imgSrc":"images/17110880439.jpg","price":299,"oldPrice":788,"detail":"控油洁面乳 200ml/6.7oz"},
+   		{"id":15,"name":"法巴芝  ","eng_name":"Faberge","imgSrc":"images/17110880439.jpg","price":399,"oldPrice":888,"detail":"控油洁面乳 200ml/6.7oz"},
+   		{"id":16,"name":"梵熙 ","eng_name":"Fascy","imgSrc":"images/17110880439.jpg","price":499,"oldPrice":988,"detail":"控油洁面乳 200ml/6.7oz"},
+   		{"id":17,"name":"雍卡 ","eng_name":"Yonka","imgSrc":"images/17110880439.jpg","price":499,"oldPrice":988,"detail":"控油洁面乳 200ml/6.7oz"},
+   		{"id":18,"name":"露华浓 ","eng_name":"Revlon","imgSrc":"images/17110880439.jpg","price":499,"oldPrice":988,"detail":"控油洁面乳 200ml/6.7oz"}
+   		
 ]
 }

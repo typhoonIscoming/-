@@ -2,8 +2,7 @@ $width:1260px;
 *{margin: 0 auto;padding: 0;}
 .content{
     width: $width;
-    margin-top: 166px;
-    border: 1px solid black;
+    margin-top: 200px;
     .container{
         width: 1140px;
         height: 317px;
@@ -29,7 +28,7 @@ $width:1260px;
                     margin-top: 55px;
                 }
                 .settime{
-                    width: 250px;
+                    width: 265px;
                     height: 80px;
                     position: absolute;
                     top: -50px;
@@ -56,11 +55,131 @@ $width:1260px;
                 }
             }
             .product_list{
+                overflow: hidden;
                 width: 1140px;
-                border: 1px solid red;
+                .row_content{
+                    float: left;
+                    width: 270px;
+                    height: 500px;
+                    margin:7px;
+                    .pic{
+                        width: 270px;
+                        height: 300px;
+                        img{
+                            width: 270px;
+                            height: 300px;
+                        }
+                    }
+                    .xiangqing{
+                        p{
+                            margin-left: 5px;
+                        }
+                    }
+                        
+                        .cart{
+                            width: 90px;
+                            height: 30px;
+                            background: #00a69c;
+                            font-size: 16px;
+                            color: white;
+                            text-align: center;
+                            cursor: pointer;
+                            line-height: 30px;
+                            border-radius: 5px;
+                        }
+                        .dazhe{
+                            text-align: center;
+                        }
+                    }    
+                
+                .row_content:hover{
+                    box-shadow: 0px 5px 5px 5px gainsboro;
+                }
                 
             } 
         }
         
-      
+    .tuijian{
+        width: 100%;
+        background: #ebe5f1;
+        height: 660px;
+        .tuijian_blank{
+            width: 1140px;
+            height: 80px;
+            overflow: hidden;
+            position: relative;
+            hr{
+                border: 3px solid #65318f;
+                margin-top: 40px;
+            }
+            .tuijian_title{
+                width: 200px;
+                height: 50px;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+                left: 0;
+                right: 0;
+                z-index: 9;
+                background: white;
+                text-align: center;
+                line-height: 50px;
+                font-size: 24px;
+                font-weight: 800;
+            }
+        }
+        
+        
+    .tuijian_pro{
+        width: 1140px;
+        overflow: hidden;     
+        .jianhuo{
+            width: 270px;
+            float: left;
+            height: 500px;
+            margin: 5px 7px;
+            border: 3px solid #65318f;
+                .pic{
+                    width: 270px;
+                    height: 300px;
+                    img{
+                        width: 263px;
+                        height: 300px;
+                    }
+                }
+                .xiangqing{
+                    height: 194px;
+                    background: white;
+                    p{
+                        margin-left: 5px;
+                    }
+                
+                    
+                    .cart{
+                        width: 90px;
+                        height: 30px;
+                        background: #00a69c;
+                        font-size: 16px;
+                        color: white;
+                        text-align: center;
+                        cursor: pointer;
+                        line-height: 30px;
+                        border-radius: 5px;
+                    }
+                    .dazhe{
+                        text-align: center;
+                    }
+                    
+                }
+            }    
+            
+            
+            
+        } 
+    }
+        
+        
+     
+
 }

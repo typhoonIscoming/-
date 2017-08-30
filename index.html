@@ -90,10 +90,32 @@
 				<div class="product_list">
 					
 				</div>
-
+				
 			</div>
+			
+			
+			
+			<div class="tuijian">
+				<div class="tuijian_blank">
+					<hr  />
+					<div class="tuijian_title">
+						草莓网尖货推荐
+					</div>
+				</div>
+				<div class="tuijian_pro">
+					
+				</div>
+				
+				
+			</div>
+			
 
 		</div>
+
+
+
+
+
 
 		<div class="footer">
 
@@ -104,29 +126,45 @@
 	
 		<script type="text/html" id="cart_template">
 		<% 
-			for (var i = 0, len = list.length; i < len; i++) {
+			for (var i = 0, len = list.length; i < 8; i++) {
 				var prod = list[i];
 		%>
-		<div class="row">
+		<div class="row_content">
 			<!--<span><input type="checkbox" class="chk_prod"></span>-->
 			<div class="pic">
 				<img src="<%=prod.imgSrc%>">
 			</div>
-			<!--<span class="id"><%= prod.id %></span>
-			<span><img src="<%= prod.imgSrc %>"></span>
-			<span><%= prod.name %></span>
-			<span class="price"><%= prod.price %></span>
-			<span><span class="minus">-</span><input type="text" size="1" value="<%= prod.amount %>" class="amount"><span class="add">+</span></span>
-			<span class="sub"><%= prod.price * prod.amount %></span>-->
-			<!--<span><a href="javascript:void(0)">删除</a></span>-->
+			<div class="xiangqing">
+				<p><a href=""><%=prod.name%></a></p>
+				<p><a href=""><%=prod.detail%></a></p>
+				<p>草莓网原价<a href=""><%=prod.oldPrice%></a></p>
+				<p><sup>¥</sup><%=prod.price%><sup>.00</sup></p>
+				<div class="cart">加入购物车</div>
+				<div class="dazhe"><span></span>下单即享折上93折</div>
+			</div>
 		</div>
 		<% } %>
-	</script>
+		</script>
 		
-		
+		<script type="text/html" id="jianhuotuijian">
+		<% 
+			for (var i = 0, len = list.length; i < 4; i++) {
+				var prod = list[i];
+		%>
+		<div class="jianhuo">
+			<div class="pic">
+				<img src="<%=prod.imgSrc%>">
+			</div>
+			<div class="xiangqing">
+				<p><a href=""><%=prod.name%></a></p>
+				<p><a href=""><%=prod.detail%></a></p>
+				<p>草莓网原价<a href=""><%=prod.oldPrice%></a></p>
+				<p><sup>¥</sup><%=prod.price%><sup>.00</sup></p>
+				<div class="cart">加入购物车</div>
+				<div class="dazhe"><span></span>下单即享折上93折</div>
+			</div>
+		</div>
+		<% } %>
+		</script>
 	
-
-
-
-
 </html>
