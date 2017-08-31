@@ -1,4 +1,4 @@
-define(["jquery","cookie","template","fly"],function($){
+define(["jquery","cookie","template","fly"],function($,cook,temp,f){
 	$.ajax({
 		type:"get",
 		url:"/html/header.html",
@@ -129,6 +129,36 @@ define(["jquery","cookie","template","fly"],function($){
 					console.log(pro_height);
 				});
 				
+			//鼠标移入购物篮上面,显示购物车中的信息,创建模板
+			$.ajax({
+				type:"get",
+				url:"html/cart.html",
+				async:true,
+				success:function(data){
+					$(data).appendTo(".products_detail");
+					
+					var cook=JSON.parse( $.cookie("products"));
+					console.log(cook);
+					for(var i=0,len=cook.length;i<len;i++){
+						$(`<ul><li><img src="${cook[i].pro_imgSrc}"/></li>
+				   <li>${cook[i].pro_name}<p>${cook[i].pro_detail}</p></li>
+				   <li>${cook[i].pro_price}</li>
+				   <li>数量${cook[i].pro_amount}<li>
+				   </ul>`).appendTo(".cart_temp");
+						
+					}
+					
+				   //计算总价
+//				   var total+=product.pro_price;
+				   
+//				   $(".pay_blank").children().eq(1).html("¥"+(total+".00").slice(0,6));
+					
+					
+				}
+			});
+			
+			
+			
 			
 			
 		}

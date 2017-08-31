@@ -64,38 +64,38 @@
   background: url(../images/search.jpg) no-repeat center center;
   float: left;
 }
-.login .banner ul {
+.login .banner .contact {
   width: 338px;
   height: 30px;
   position: absolute;
   top: 15px;
   right: 20px;
 }
-.login .banner ul li {
+.login .banner .contact li {
   float: left;
   list-style: none;
   background: url(../images/border.jpg) no-repeat right center;
   padding: 10px;
   font-size: 12px;
 }
-.login .banner ul li a {
+.login .banner .contact li a {
   text-decoration: none;
 }
-.login .banner ul li span {
+.login .banner .contact li span {
   display: inline-block;
   width: 20px;
   height: 10px;
   background: url(../images/xiala.jpg) no-repeat center center;
 }
-.login .banner ul .lastChild {
+.login .banner .contact .lastChild {
   background-image: none;
 }
 .login .banner .userInfo {
-  position: absolute;
+  position: relative;
   width: 223px;
   height: 50px;
   top: 50px;
-  right: 30px;
+  right: -495px;
 }
 .login .banner .userInfo dl {
   float: left;
@@ -122,6 +122,90 @@
 .login .banner .userInfo dl dd a {
   color: #b56fb8;
   text-decoration: none;
+}
+.login .banner .userInfo .shopping_basket {
+  position: absolute;
+  top: 50px;
+  left: -157px;
+  width: 380px;
+  border: 1px solid red;
+  z-index: 99;
+  background: white;
+}
+.login .banner .userInfo .shopping_basket .title {
+  width: 380px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 800;
+  border: 1px solid black;
+  line-height: 50px;
+}
+.login .banner .userInfo .shopping_basket .products_detail {
+  width: 380px;
+  border: 1px solid black;
+}
+.login .banner .userInfo .shopping_basket .products_detail .cart_temp {
+  width: 380px;
+  border: 1px solid red;
+  background: white;
+}
+.login .banner .userInfo .shopping_basket .products_detail .cart_temp ul {
+  width: 380px;
+  height: 50px;
+  margin-top: 10px;
+}
+.login .banner .userInfo .shopping_basket .products_detail .cart_temp ul li {
+  list-style: none;
+  float: left;
+}
+.login .banner .userInfo .shopping_basket .products_detail .cart_temp ul li:nth-child(1) {
+  width: 80px;
+}
+.login .banner .userInfo .shopping_basket .products_detail .cart_temp ul li:nth-child(1) img {
+  width: 80px;
+  height: 50px;
+}
+.login .banner .userInfo .shopping_basket .products_detail .cart_temp ul li:nth-child(2) {
+  width: 198px;
+  text-align: left;
+}
+.login .banner .userInfo .shopping_basket .products_detail .cart_temp ul li:nth-child(3) {
+  width: 100px;
+  text-align: center;
+}
+.login .banner .userInfo .shopping_basket .pay_blank {
+  width: 380px;
+  height: 80px;
+  margin-top: 20px;
+  border: 1px solid black;
+}
+.login .banner .userInfo .shopping_basket .pay_blank span {
+  display: block;
+  width: 50%;
+  height: 30px;
+  font-size: 12px;
+  border: 1px solid black;
+  float: left;
+  font-size: 20px;
+  line-height: 30px;
+}
+.login .banner .userInfo .shopping_basket .pay_blank span:nth-child(2) {
+  text-align: right;
+}
+.login .banner .userInfo .shopping_basket .pay_blank .pay {
+  width: 60px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+  float: right;
+  cursor: pointer;
+  background: #00a69c;
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+  margin-right: 20px;
+  margin-top: 10px;
 }
 .login .nav {
   width: 1278px;

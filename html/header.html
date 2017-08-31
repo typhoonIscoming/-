@@ -5,7 +5,7 @@
 			<input class="input_txt" type="text" placeholder="搜索商品/品牌/关键词" />
 			<span></span>
 		</div>
-		<ul>
+		<ul class="contact">
 			<li><a href="#">¥CNY</a><span></span></li>
 			<li><a href="#">China:English</a><span></span></li>
 			<li><a href="#">订单查询</a></li>
@@ -21,6 +21,21 @@
 				<dt class="cart_pic"></dt>
 				<dd><a href="#">购物篮</a></dd>
 			</dl>
+			
+			<div class="shopping_basket">
+				<div class="title"><span>0</span><span>件商品</span></div>
+				<div class="products_detail">
+					
+				</div>
+				<div class="pay_blank">
+					<span>总额</span>
+					<span>¥0.00</span>
+					<div class="pay">付款</div>
+				</div>
+				
+			</div>
+			
+			
 		</div>
 	</div>
 
@@ -113,3 +128,24 @@
 		</ul>
 	</div>
 </div>
+
+<!--<script type="text/html" id="shopping">
+	<% 
+		for (var i = 0, len = buy_products.length; i < len; i++) {
+				var prod = buy_products[i];
+		%>
+		<div class="pro_detail">
+			<ul>
+				<li class="pro_pic"><%=prod.imgSrc%></li>
+				<li class="pro_name"><%=prod.name%></li>
+				<li class="pro_price"><%=prod.price%></li>
+			</ul>
+			
+		</div>
+	
+	<% } %>
+	
+	
+</script>-->
+
+

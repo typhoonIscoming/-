@@ -92,7 +92,7 @@
   text-align: center;
 }
 .content .today_sale .product_list .row_content:hover {
-  box-shadow: 0px 5px 5px 5px gainsboro;
+  box-shadow: 0px 3px 20px 5px gainsboro;
 }
 .content .tuijian {
   width: 100%;

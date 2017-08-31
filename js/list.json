@@ -1,7 +1,7 @@
 {
 "list":[
    		{"id":1,"name":"阿迪达斯","eng_name":"Adidas","imgSrc":"images/17110880439.jpg","price":199,"detail":"控油洁面乳 200ml/6.7oz","oldPrice":299},
-   		{"id":2,"name":"阿贝克隆比&费奇&AF","eng_name":"Abercrombie & Fitch","imgSrc":"","price":299,"oldPrice":399,"imgSrc":"images/17110880439.jpg","detail":"控油洁面乳 200ml/6.7oz"},
+   		{"id":2,"name":"阿迪达斯","eng_name":"Adidas","imgSrc":"images/17110880439.jpg","price":299,"detail":"控油洁面乳 200ml/6.7oz","oldPrice":399},
    		{"id":3,"name":"阿诺资","eng_name":"Arezia","imgSrc":"images/17110880439.jpg","price":399,"oldPrice":499,"detail":"控油洁面乳 200ml/6.7oz"},
    		{"id":4,"name":"巴宝","eng_name":"Babor","imgSrc":"images/17110880439.jpg","price":499,"oldPrice":599,"detail":"控油洁面乳 200ml/6.7oz"},
    		{"id":5,"name":"巴宝莉 ","eng_name":"Burberry","imgSrc":"images/17110880439.jpg","price":199,"oldPrice":699,"detail":"控油洁面乳 200ml/6.7oz"},
